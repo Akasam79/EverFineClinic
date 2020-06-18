@@ -1,0 +1,122 @@
+a{
+    text-decoration: none !important;
+    color: rgb(44, 44, 44) !important;
+}
+
+  /* css for the login page */
+
+.cover{
+    background-color: #fff;
+    position: absolute;
+    height: 100%;
+    width: 100% !important;
+    text-align: center;
+    box-shadow: 0 3px 3px gray;
+    border-color: rgb(221, 216, 216);
+}
+.cover-2{
+    padding-top: 20px;
+}
+.h3-login{
+    text-align: center;
+    font-family: montserratbold;
+    font-weight: bold;
+    color: #FFC107;
+}
+.p-proceed{
+    text-align: center;
+    color: #ABB4BD;
+    font-family: montserrat;
+    font-size: 16px;
+}
+.p-terms{
+    text-align: center;
+    color: #ABB4BD;
+    font-family: montserrat;
+    font-size: 16px;
+}
+.login-m{
+    padding-top: 100px;
+}
+.btn1{
+    width: 150px !important;
+    height: 40px;
+    box-shadow: 0 3px 3px lightgray;
+}
+.btn2{
+    width: 150px !important;
+    height: 40px;
+    box-shadow: 0 3px 3px lightgray;
+    background-color:#17A2B8 !important;
+    border-color: #FFC107 !important;
+    cursor: pointer;
+    font-family: montserratbold;
+    font-size: 18px;
+    margin-left: 0px !important;
+    
+}
+#form-msg{
+    color: rgb(44, 192, 44) !important;
+    font-size: 20px !important;
+    font-family: montserratbold;
+    text-align: center;
+}
+#name{
+    border-color:lightgray;
+}
+.nk{
+    color: #FFC107 !important;
+}
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky {
+  padding-top: 60px;
+}
+
+
+@media screen and (max-width: 576px) {
+    .btn2{
+        margin-top: 60px;
+        margin-left: -90px;
+    
+        
+    }
+    .cover{
+        height: 700px; 
+        box-shadow: 0 0 0;
+
+    }
+    .btn1{
+        width: 150px !important;
+        height: 40px;
+        box-shadow: 0 3px 3px lightgray;
+        margin-left: -15px;
+    }
+    .sub-menu p {
+        font-size: 10px !important;
+    }
+    .f-col{
+        height:150px ;
+    } 
+    
+}
+

@@ -1,0 +1,70 @@
+body{
+	background-color:#b2beb5;
+}
+
+.main{
+	display: flex;
+	background-color: #b2beb5;
+
+}
+
+.LS{
+	flex: 30%;
+	color: white;
+	background-color: white;
+}
+.card {
+	flex: 40%;
+	background-color: #b2beb5;
+	padding: 20px;
+	text-align: center;
+	height: 500px;
+}
+
+.container {
+	flex: 35%;
+	background-color: #b2beb5;
+	padding: 50px;
+	text-align: center;
+
+	}
+.inputs {
+	text-align: center;
+	float: center;
+	padding: 10px;
+}
+
+#ph {
+	border-radius: 5px;
+	margin-right: 53px;
+	width: 450px;
+	height: 50px;
+}
+
+#pass {
+	border-radius: 5px;
+	margin-right: 53px;
+	width: 450px;
+	height: 50px;
+}
+
+.SI {
+	text-align: center;
+	float: center;
+	background-color: #00B2FF;
+	color: #00B2FF;
+	border-radius: 5px;
+	padding: 5px;
+}
+#emailHelp {
+	padding: 10px;
+}
+
+@media screen and (max-width:700px){
+
+		#ph, #fname, #pass{
+			width: 70%;
+			display: block;
+			margin-bottom: 5px;
+		}
+}
